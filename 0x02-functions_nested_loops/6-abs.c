@@ -5,7 +5,7 @@
  * @c: value
  * Return: abs value or number or zero
  */
-int _abs(int)
+int _abs(int c)
 {
 	if (c < 0)
 	{
