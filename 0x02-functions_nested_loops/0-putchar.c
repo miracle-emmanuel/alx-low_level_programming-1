@@ -1,13 +1,9 @@
-#include <stdio.h>
+#include <unistd.h>
 /**
  * main - printing putchar
- * Return: 0 (success)
- */
-int _putchar(void)
+ * Return: On success 1.
+  */
+int _putchar(char c)
 {
-	char c;
-
-	c = '_putchar';
-	putchar(c);
-	return (0);
+	return(write(1, &c, 1));
 }
