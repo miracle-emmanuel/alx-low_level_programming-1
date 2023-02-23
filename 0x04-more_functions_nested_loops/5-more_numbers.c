@@ -2,7 +2,6 @@
 
 /**
  * more_numbers - print 0 to 14
- * Description: 0 to 14 10 times
  * Return: 0 to 14 printed 10 times
  */
 void more_numbers(void)
