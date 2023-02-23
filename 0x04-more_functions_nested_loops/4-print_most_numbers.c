@@ -2,6 +2,7 @@
 
 /**
  * print_most_numbers - all numbers except 2 and 4
+ * Description: print something
  * Return: output
  */
 void print_most_numbers(void)
