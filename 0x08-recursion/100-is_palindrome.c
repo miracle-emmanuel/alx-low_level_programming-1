@@ -4,7 +4,7 @@ int c_p(char *s, int i, int len);
 int _str(char *s);
 
 /**
- * is_pallindrone - if string is pallindrone
+ * is_palindrome - if string is pallindrone
  * @s: string to reverse
  * Return: 1 or 0
  */
